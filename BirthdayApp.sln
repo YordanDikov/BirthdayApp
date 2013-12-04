@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayApp", "BirthdayApp\BirthdayApp.csproj", "{653001C0-68B3-4879-B787-50453C028470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayApp.Models", "BirthdayApp.Models\BirthdayApp.Models.csproj", "{E21DB699-2462-444C-86BE-C2105C81E6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayApp.Data", "BirthdayApp.Data\BirthdayApp.Data.csproj", "{56D1B00B-0928-4AE4-8CFB-B0099CFAE41C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653001C0-68B3-4879-B787-50453C028470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653001C0-68B3-4879-B787-50453C028470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653001C0-68B3-4879-B787-50453C028470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653001C0-68B3-4879-B787-50453C028470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21DB699-2462-444C-86BE-C2105C81E6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21DB699-2462-444C-86BE-C2105C81E6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21DB699-2462-444C-86BE-C2105C81E6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21DB699-2462-444C-86BE-C2105C81E6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D1B00B-0928-4AE4-8CFB-B0099CFAE41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D1B00B-0928-4AE4-8CFB-B0099CFAE41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D1B00B-0928-4AE4-8CFB-B0099CFAE41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D1B00B-0928-4AE4-8CFB-B0099CFAE41C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

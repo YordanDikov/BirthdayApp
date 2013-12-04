@@ -1,3 +1,5 @@
 *.exe
 *.dll
-BirthdayApp.v11.suo
+*.suo
+bin
+obj
