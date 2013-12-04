@@ -14,5 +14,8 @@ namespace BirthdayApp.Data
 
         public IDbSet<Category> Categories { get; set; }
 
+        public ApplicationDbContext() : base("BirthdayApplicationDbContext")
+        {
+        }
     }
 }

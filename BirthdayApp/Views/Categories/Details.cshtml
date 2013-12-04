@@ -1,0 +1,8 @@
+﻿@model BirthdayApp.ViewModels.CategoryViewModel
+
+<h3>@Model.Name</h3>
+@foreach (var image in Model.Images)
+{
+   <img src="@image.Url" /> 
+    
+}

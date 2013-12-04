@@ -10,12 +10,30 @@ namespace BirthdayApp.Data.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(BirthdayApp.Data.ApplicationDbContext context)
         {
+            base.Seed(context);
+            if (context.Categories.Count() == 0)
+            {
+                context.Categories.Add(new Category()
+                {
+                    Name = "Friends"
+                });
+                context.Categories.Add(new Category()
+                {
+                    Name = "Family"
+                });
+                context.Categories.Add(new Category()
+                {
+                    Name = "Pets"
+                });
+
+                context.SaveChanges();
+            }
         }
     }
 }
